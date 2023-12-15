@@ -3,7 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;  
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto";
 }
 a{
     text-decoration: none;
@@ -72,9 +72,9 @@ a{
     background-color: #3882F6;
     border: none;
     border-radius: 8px;
-    padding: 9px 35px;
+    padding: 6px 35px;
     color: #F9FAF8;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto";
     font-weight: 600;
     font-size: 18px;
 }
@@ -136,7 +136,7 @@ a{
     font-style:italic; 
     color: #1F2937;
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 300;
 }
 .quote-cite{
     align-self: flex-end;
@@ -146,4 +146,60 @@ a{
 .quote-cite > p{
     margin: 0;
     font-weight: bolder;
+}
+
+
+
+
+
+.action{
+    height: 338px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action-box{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    display: flex;
+    gap: 40px;
+    height: 130px;
+    width: 70%;
+    justify-content: space-around;
+}
+.action-header{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.action-left{
+    align-self: center;
+}
+.action-right{
+    align-self: center;
+}
+.action-right > button{
+    background-color: #3882F6;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 6px 35px;
+    color: #F9FAF8;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+
+
+.footer{
+    display: flex;
+    color: #E5E7EB;
+    width: 100%;
+    margin: auto;
+    background-color: #1F2937;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
 }
